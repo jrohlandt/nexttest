@@ -1,4 +1,6 @@
 [build]
     command = "npm run build && npm run export"
-    NETLIFY_NEXT_PLUGIN_SKIP = "true"
     publish = "out"
+
+[[plugins]]
+    NETLIFY_NEXT_PLUGIN_SKIP = "true"
